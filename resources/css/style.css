@@ -1,0 +1,62 @@
+/* general styling */
+div {
+/*: 1px solid black;*/
+}
+body {
+margin: 0;
+padding: 0;
+max-width: : 1300px;
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+opacity: 0.9;
+}
+/* header styling */
+
+.header {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+.header li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+/* mission styling */
+.banner {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.strip {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+}
+.banner h2 {
+align-self: center;
+padding-bottom: 0;
+margin-bottom: 5px;
+}
+.banner h4 {
+align-self: center;
+padding-top: 0;
+margin-top: 5px;;
+}
