@@ -13,7 +13,8 @@ opacity: 0.9;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: black;
+/*background-color: black;*/
+
 }
 
 /* header styling */
@@ -100,6 +101,41 @@ margin-top: 5px;
   flex-direction: column;
   align-items: center;
   margin: 10px;
+}
+  /* place styling */
+.place{
+text-align: center;
+width: 1200px;
+height: 500px;
+background-image: url("../../resources/images/img-locations-background.jpg");
+display: flex;
+flex-direction: column;
+justify-content: center;
 
-  /* location styling */
-  
+}
+.place h2 {
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 30px;
+
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+.downtown, .bayside, .oakdale {
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* footer styling */
